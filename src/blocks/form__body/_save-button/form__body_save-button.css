@@ -1,0 +1,19 @@
+.form__body_save-button {
+    width: 284px;
+    height: 36px;
+    background: #7BAE73;
+    border-radius: 10px;
+    border: #FFFEFB;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffff;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+}
+
+.form__body_save-button:hover {
+    opacity: 0.8;
+}

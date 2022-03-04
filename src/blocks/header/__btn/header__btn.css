@@ -1,0 +1,10 @@
+.header__btn {
+    color: #B4B4B4;
+    width: 126px;
+    height: 36px;
+    background: #FFFEFB;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: #FFFEFB;
+    cursor: pointer;
+}

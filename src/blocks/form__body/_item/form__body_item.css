@@ -1,0 +1,16 @@
+.form__body_item {
+    width: 284px;
+    height: 36px;
+    background: #FFFEFB;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    border: #FFFEFB;
+}
+
+.form__body_item::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 16px;
+    }

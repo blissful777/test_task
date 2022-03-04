@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="header__push">Добавление товара</h1>
+            <select name="По умолчанию" class="header__btn">
+                <option class="header__btn_value" value="1">По умолчанию</option>
+                <option class="header__btn_value" value="2">По возрастанию цены</option>
+                <option class="header__btn_value" value="3">По убыванию цены</option>
+                <option class="header__btn_value" value="3">По названию</option>
+            </select>
+        </header>
+        <div class="container">    
+            <div class="form-wrapper">
+                <form action="" class="form__body" novalidate>
+                    <div class="form__text">
+                        <label>
+                            <h2>Наименование товара</h2>
+                        <input class="form__body_item" id="name__valid" placeholder="Введите наименование товара" name="product_name" type="text" minlength="2" maxlength="20" required>
+                        <span id="error-name__valid" class="error-message popup__error popup__error_visible"></span>
+                    </label>
+                    </div>
+                    <div class="form__text">
+                        <label>
+                         <h2>Описание товара</h2>
+                         <input class="form__body_item" id="option__valid"  placeholder="Введите описание товара" name="form_option" type="text" minlength="2" maxlength="20" required>
+                         <span id="error-option__valid" class="error-message popup__error popup__error_visible"></span>
+                    </label>
+                    </div>
+                      <div class="form__text">
+                        <label>
+                        <h2>Ссылка на изображение товара</h2>
+                        <input class="form__body_item" id="url__valid" type="url" placeholder="Введите ссылку" name="form_link" required>
+                        <span id="error-url__valid" class="error-message popup__error popup__error_visible"></span>
+                    </label>
+                      </div>
+                        <div class="form__text">
+                         <label>
+                             <h2>Цена товара</h2>
+                         <input class="form__body_item" id="price__valid" type="number" placeholder="Введите цену" name="price" required>
+                         <span id="error-price__valid" class="error-message popup__error popup__error_visible"></span>
+                        </label>
+                        </div>  
+                             <button type="submit" class="form__body_save-button" disabled>Добавить товар</button>
+                </form>
+            </div>
+            <div class="section">
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+                <div class="section__about">
+                    <span class="section__trash">
+                        <img src="<%=require('../src/img/trash.svg')%>" alt="trash">
+                    </span>
+                    <img src="<%=require('../src/img/Rectangle 31.jpg')%>" alt="image"></img>
+                    <div class="section__about_info">
+                    <h4 class="section__name">Наименование товара</h4>
+                    <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                    <h4 class="section__price">10 000 руб.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

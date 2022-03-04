@@ -1,0 +1,17 @@
+.section__about {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    width: 332px;
+    height: 423px;
+    background: #FFFEFB;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.section__about:hover .section__trash {
+    opacity: 1;
+}
